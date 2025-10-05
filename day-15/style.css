@@ -1,0 +1,233 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+#nav{
+    /* position: fixed; */
+    display: flex;
+    color: white;
+    height: 15%;
+    width: 100%;
+    background-color: #6e0d25;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#nav img{
+    height: 55px;
+    width: 270px;
+    object-fit: contain;
+   
+}
+#nav h4{
+    font-size: 18x;
+    font-weight: 650;
+}
+#main{
+    flex-wrap: wrap;
+    height: 100v;
+    width: 100%;
+    background-color: rgba(226, 185, 185, 0.883);
+    display: flex;
+   gap: 50px;
+   padding: 20px;
+ 
+
+}
+.cards{
+    border-radius: 20px;
+    width: 330px;
+    height: 590px;
+    background-color:white;
+    padding: 18px;
+   
+   
+}
+.cards #img1{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+#cards-val {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    padding-top:12x ;
+
+}
+#cards-val h3{
+    align-self: flex-start;
+    padding: 5px 20px;
+    font-size: 12px;
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+}
+#cards-val p{
+    margin-top: 10px;
+}
+#cards-val h2 {
+    align-self:flex-start;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    gap: 10px;
+}
+#cards-val h2 span{
+   
+    color: red;
+    font-size: 12px;
+    margin-left: 50px;
+}
+#cards-val h2 #rating{
+    font-size: 16px;
+    color: red;
+    border: 1px solid transparent;
+    box-shadow: 0.1px 0.1px 20px rgba(0, 0, 0, 0.271);
+}
+#cards-val button{
+    background-color:#6e0d25;
+    align-self: center;
+     margin-top: 10px;
+    font-size: 22px;
+    padding: 10px 28px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+       cursor: pointer;
+       /* margin-top: 5px; */
+}
+#cards-val button:hover{
+    color: #6e0d25;
+    background-color: transparent;
+    border: 2px solid#6e0d25;
+}
+/* IMAGES */
+
+.cards #img1 {
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  background-image: url("https://www.themancompany.com/cdn/shop/files/1_84a0ea7e-3f2d-44ad-b3a6-52e04b9e5215_480x.jpg?v=1747996612");
+  background-size: cover;
+  background-position: center;
+  transition: 1s;
+}
+.cards #img1:hover{
+    background-image: url(https://www.themancompany.com/cdn/shop/files/2_13c9d5da-e5fe-4172-a5c5-27e469b33951_765x.jpg?v=1747996612);
+}
+
+
+
+
+.cards #img2{
+   height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  background-image: url("https://www.themancompany.com/cdn/shop/files/Destiny100mlPrimaryimages3_765x.jpg?v=1746424466");
+  background-size: cover;
+  background-position: center;
+  transition:0.8s ;
+}
+.cards #img2:hover{
+    background-image: url(https://www.themancompany.com/cdn/shop/files/Destiny_50ml_Primary_images_10_480x.jpg?v=1746424466);
+}
+
+
+.cards #img3{
+   height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  background-image: url("https://www.themancompany.com/cdn/shop/products/5_72244335-2ea5-48ae-bea2-721a0aa3274a_765x.jpg?v=1666859733");
+  background-size: cover;
+  background-position: center;
+  transition: 0.8s;
+}
+.cards #img3:hover{
+    background-image: url(https://www.themancompany.com/cdn/shop/files/MuskIngredient_480x.jpg?v=1707372731);
+}
+
+
+.cards #img4{
+   height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  background-image: url("https://www.themancompany.com/cdn/shop/products/Front-with-Box_765x.jpg?v=1657218082");
+  background-size: cover;
+  background-position: center;
+  transition: 0.8s;
+}
+.cards #img4:hover{
+    background-image: url(https://www.themancompany.com/cdn/shop/files/BlancEDT100ml_952c4fcb-71c7-4381-a13b-914374a1de00_480x.jpg?v=1710998715);
+}
+
+
+.cards #img5{
+    height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  background-image: url("https://www.themancompany.com/cdn/shop/products/7_820a3135-dcfe-4da8-a15f-c69af672360a_765x.jpg?v=1666859672");
+  background-size: cover;
+  background-position: center;
+  transition: 0.8s;
+}
+.cards #img5:hover{
+    background-image: url(https://www.themancompany.com/cdn/shop/products/3_1_46dcd2bb-dd1f-43ba-b68a-bc459df45eb7_480x.jpg?v=1669887877);
+}
+
+
+.cards #img6{
+   height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  background-image: url("https://www.themancompany.com/cdn/shop/files/Desire100mlPrimaryimages3_765x.jpg?v=1742803552"  );
+  background-size: cover;
+  background-position: center;
+  transition: 0.8s;
+}
+.cards #img6:hover{
+    background-image: url(https://www.themancompany.com/cdn/shop/files/Desire100mlPrimaryimages6_480x.jpg?v=1742803552);
+}
+
+
+.cards #img7{
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  background-image: url("https://www.themancompany.com/cdn/shop/products/2_35_480x.png?v=1657217820");
+  background-size: cover;
+  background-position: center;
+  transition: 0.8s;
+}
+.cards #img7:hover{
+    background-image: url(https://www.themancompany.com/cdn/shop/products/100mlEDTLifestyleOudIngredient_480x.jpg?v=1669887967);
+}
+
+
+.cards #img8{
+    height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  background-image: url("https://www.themancompany.com/cdn/shop/products/6_51260287-fb42-4c02-bb6a-7bfa018220b3_765x.jpg?v=1660284262");
+  background-size: cover;
+  background-position: center;
+  transition: 0.8s;
+}
+.cards #img8:hover{
+    background-image: url(https://www.themancompany.com/cdn/shop/products/100mlEDTLifestyleIntenseIngredient_480x.jpg?v=1669887934);
+}
